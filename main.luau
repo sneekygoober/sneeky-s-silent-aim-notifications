@@ -14,7 +14,8 @@ return {
         SG:SetCore("SendNotification", {
             ["Title"] = "ERROR - READ BELOW",
             ["Text"] = err,
-            ["Duration"] = 60
+            ["Duration"] = 60,
+            ["Button1"] = "Close"
         });
     end
 };
